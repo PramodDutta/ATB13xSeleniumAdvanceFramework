@@ -1,4 +1,5 @@
 package com.thetestingacademy.pages.pageObjectModel.vwo;
 
-public class DashboardPage {
+public class SupportPage {
+    // Contact
 }
