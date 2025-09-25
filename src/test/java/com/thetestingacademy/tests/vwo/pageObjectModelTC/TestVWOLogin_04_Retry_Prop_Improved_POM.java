@@ -1,13 +1,8 @@
 package com.thetestingacademy.tests.vwo.pageObjectModelTC;
 
 import com.thetestingacademy.base.CommonToAllTest;
-import com.thetestingacademy.driver.DriverManger;
 import com.thetestingacademy.listeners.RetryAnalyzer;
-import com.thetestingacademy.pages.pageObjectModel.vwo.improved_POM.DashBoardPage;
-import com.thetestingacademy.pages.pageObjectModel.vwo.improved_POM.LoginPage;
-import com.thetestingacademy.utils.PropertiesReader;
 import com.thetestingacademy.utils.TakeScreenShot;
-import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.apache.logging.log4j.LogManager;
@@ -15,7 +10,7 @@ import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static com.thetestingacademy.driver.DriverManger.getDriver;
+import static com.thetestingacademy.driver.DriverManager.getDriver;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @Test(retryAnalyzer = RetryAnalyzer.class)

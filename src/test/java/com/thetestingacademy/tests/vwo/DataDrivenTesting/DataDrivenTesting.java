@@ -1,7 +1,7 @@
 package com.thetestingacademy.tests.vwo.DataDrivenTesting;
 
 import com.thetestingacademy.base.CommonToAllTest;
-import com.thetestingacademy.driver.DriverManger;
+import com.thetestingacademy.driver.DriverManager;
 import com.thetestingacademy.pages.pageObjectModel.vwo.improved_POM.LoginPage;
 import com.thetestingacademy.utils.PropertiesReader;
 import com.thetestingacademy.utilsExcel.UtilExcel;
@@ -24,7 +24,7 @@ public class DataDrivenTesting extends CommonToAllTest {
     public void test_vwo_login(String email, String password) {
 
         // Page Class Code (POM Code) - 2 - L
-        LoginPage loginPage = new LoginPage(DriverManger.getDriver());
+        LoginPage loginPage = new LoginPage(DriverManager.getDriver());
         String error_msg = loginPage.loginToVWOLoginInvalidCreds(email,password);
 
         // Assertions - 3 - V

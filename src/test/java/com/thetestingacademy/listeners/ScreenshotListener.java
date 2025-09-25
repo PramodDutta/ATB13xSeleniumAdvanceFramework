@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-import static com.thetestingacademy.driver.DriverManger.getDriver;
+import static com.thetestingacademy.driver.DriverManager.getDriver;
 
 public class ScreenshotListener implements ITestListener {
     @Override
